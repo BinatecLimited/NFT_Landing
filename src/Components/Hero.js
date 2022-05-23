@@ -21,7 +21,7 @@ function Hero() {
           <CountDown />
         </div>
       </div>
-      <div className="hero lg:block hidden">
+      <div className="">
         <img
           src="/images/main.png"
           alt="Main"
@@ -33,3 +33,6 @@ function Hero() {
 }
 
 export default Hero;
+
+
+//hero lg:block hidden
