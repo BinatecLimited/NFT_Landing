@@ -11,7 +11,6 @@ function App() {
         <div className="container mx-auto xl:px-32 px-2 pt-10">
           <Header />
           <Hero />
-          <TopNFT />
           <Subcribe />
         </div>
       </div>
@@ -20,3 +19,6 @@ function App() {
 }
 
 export default App;
+
+
+//<TopNFT />

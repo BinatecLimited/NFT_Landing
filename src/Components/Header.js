@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className="grid grid-cols-4 justify-center items-center relative">
       <a href="/" className="lg:col-span-1 col-span-2">
-        <img src="logo.png" alt="Logo" className="w-32" />
+        <img src="logo.png" alt="Logo" className="w-40" />
       </a>
       <div className="col-span-2 flex lg:hidden justify-end">
         <button
@@ -18,29 +18,27 @@ function Header() {
           <i className={`${show ? "far fa-bars" : "far fa-times"}`}></i>
         </button>
       </div>
-
-      <div
-        className={`${
-          show ? "hidden" : "block"
-        } bgSmall left-0 px-4 right-0 absolute top-12 lg:px-0 lg:relative lg:top-0 lg:col-span-3 lg:flex gap-10 justify-end items-center`}
-      >
-        <ul className="lg:flex">
-          <li className={menuClass}>
-            <a href="">HOME</a>
-          </li>
-          <li className={menuClass}>
-            <a href="#">ABOUT US</a>
-          </li>
-          <li className={menuClass}>
-            <a href="#">COLLECTION</a>
-          </li>
-        </ul>
-        <button className="lg:border-0 border border-whites hover:skew-x-12 transitione bt-linear font-semibold text-whites text-sm py-3 px-8 rounded">
-          CONNECT
-        </button>
-      </div>
     </div>
   );
 }
 
 export default Header;
+
+//<div
+       // className={`${
+        // show ? "hidden" : "block"
+        //} bgSmall left-0 px-4 right-0 absolute top-12 lg:px-0 lg:relative lg:top-0 lg:col-span-3 lg:flex gap-10 justify-end items-center`}
+      //>
+    //    <ul className="lg:flex">
+   //       <li className={menuClass}>
+   //         <a href="">HOME</a>
+  //        <li className={menuClass}>
+   //         <a href="#">ABOUT US</a>
+  //        </li>
+   //       <li className={menuClass}>
+   //         <a href="#">COLLECTION</a>
+    //      </li>
+    //    </ul>
+    //    <button className="lg:border-0 border border-whites hover:skew-x-12 transitione bt-linear font-semibold text-whites text-sm py-3 px-8 rounded">
+    //      CONNECT
+     // </div>
