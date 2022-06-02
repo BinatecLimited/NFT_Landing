@@ -7,7 +7,7 @@ const socialClass =
 function Subcribe() {
   return (
     <div className="my-12">
-      <Heading title="SUBSCRIBE TO US" />
+      <Heading title="SUBSCRIBE" />
       <div className="mt-12">
         <div className="flex overflow-hidden bg-subMain border rounded border-whites">
           <input
@@ -20,20 +20,20 @@ function Subcribe() {
           </button>
         </div>
         <p className="font-medium text-sm text-center italic text-lightBlack mt-3">
-          By subcribe us you will get notfication when new NFT droped
+          By subcribing, you will get notfications when new NFT drops.
         </p>
         <div className="flex-rows mt-6 pb-12">
           <a href="https://medium.com/@Cardiza_finance" className={socialClass}>
-            <i class="fab fa-medium-m"></i>
+            <i class="fa-brands fa-facebook"></i>
           </a>
           <a href="https://t.me/sneakerscartel" className={socialClass}>
-            <i class="fab fa-telegram-plane"></i>
+            <i className="fab fa-telegram-plane"></i>
           </a>
           <a href="https://m.youtube.com/channel/UCOYwYO-LEsrjqBs6xXSfq1w" className={socialClass}>
-            <i class="fab fa-youtube"></i>
+            <i className="fab fa-youtube"></i>
           </a>
           <a href="https://app.gitbook.com/s/iZ8zPbmdgkEiCALHEZw7/" className={socialClass}>
-            <i class="fab fa-gitbooks"></i>
+            <i className="fab fa-gitbooks"></i>
           </a>
         </div>
       </div>

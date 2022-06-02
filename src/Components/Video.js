@@ -1,22 +1,21 @@
 import React from 'react'
-import VideoPlayer from "react-video-js-player";
 
 import Car from "./Egungunbecareful.mp4";
 
-const video = () => {
-    const videoSrc =  Car;
-    const poster = "https://ibb.co/f2J03ht";
-
+const Video = () => {
+  
+  const poster = "img.jpeg";
+  
+  
   return (
-    <div className='App'>
-        <VideoPlayer 
-            src={videoSrc}
-            poster={poster}
-            width="720"
-            height="420"
-        />
+    <div className='App'style={{display:"flex" ,justifyContent:"center"}} >
+      <video width="900px" height="300px" controls>
+        <source src={Car}  poster={poster} type="video/mp4 " />
+        
+        
+      </video>
     </div>
   )
 }
 
-export default video
+export default Video
